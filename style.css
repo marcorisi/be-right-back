@@ -34,13 +34,13 @@ html, body {
     background: linear-gradient( -45deg, #FFFFFF 50%, #8AAAE5 50%);
 }
 .brb-ui-class-selector.brb-style-2 {
-    background: linear-gradient( -45deg, #FEE715 50%, #101820 50%);
+    background: linear-gradient( -45deg, #101820 50%, #FEE715 50%);
 }
 .brb-ui-class-selector.brb-style-3 {
-    background: linear-gradient( -45deg, #F96167 50%, #FCE77D 50%);
+    background: linear-gradient( -45deg, #FCE77D 50%, #F96167 50%);
 }
 .brb-ui-class-selector.brb-style-4 {
-    background: linear-gradient( -45deg, #CCF381 50%, #4831D4 50%);
+    background: linear-gradient( -45deg, #4831D4 50%, #CCF381 50%);
 }
 
 #content {
