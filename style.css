@@ -24,7 +24,9 @@ html, body {
 }
 
 #ui-control .brb-ui-class-selector.brb-selected {
-    border: 2px solid #FFFFFF; 
+    border: 2px solid #FFFFFF;
+    width: 32px;
+    height: 32px;
 }
 
 .brb-ui-class-selector.brb-style-1 {
