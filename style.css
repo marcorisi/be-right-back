@@ -1,6 +1,7 @@
 html {
     font-family: 'Lato', sans-serif;
     background-color: #8AAAE5;
+    color: #FFFFFF;
 }
 
 html, body {
@@ -8,8 +9,41 @@ html, body {
     height: 100%;
 }
 
+#ui-control {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+#ui-control .brb-ui-class-selector {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#ui-control .brb-ui-class-selector.brb-selected {
+    border: 2px solid #FFFFFF; 
+}
+
+.brb-ui-class-selector.brb-style-1 {
+    background: linear-gradient( -45deg, #FFFFFF 50%, #8AAAE5 50%);
+}
+.brb-ui-class-selector.brb-style-2 {
+    background: linear-gradient( -45deg, #FEE715 50%, #101820 50%);
+}
+.brb-ui-class-selector.brb-style-3 {
+    background: linear-gradient( -45deg, #F96167 50%, #FCE77D 50%);
+}
+.brb-ui-class-selector.brb-style-4 {
+    background: linear-gradient( -45deg, #CCF381 50%, #4831D4 50%);
+}
+
 #content {
-    color: #FFFFFF;
     border: 1px solid #FFFFFF;
     position: absolute;
     top: 5%;
