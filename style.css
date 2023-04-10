@@ -78,6 +78,7 @@ html, body {
     font-size: 48px;
     display: -webkit-flex;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     outline: 0px solid transparent;
