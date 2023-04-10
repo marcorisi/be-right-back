@@ -1,3 +1,5 @@
+let timeout
+
 const changeStyle = function (event) {
 
     // update the selected controls
@@ -16,3 +18,18 @@ const changeStyle = function (event) {
 const uiControls = document.querySelectorAll('.brb-ui-class-selector').forEach( (element) => {
     element.addEventListener('click', changeStyle)
 })
+
+const showUIControl = function (event) {
+    const uiControl = document.getElementById('ui-control')
+    uiControl.classList.add('active')
+    
+    if (timeout) clearTimeout(timeout)
+    timeout = setTimeout(hideUIControl, 1000)
+}
+
+const hideUIControl = function () {
+    const uiControl = document.getElementById('ui-control')
+    uiControl.classList.remove('active')
+}
+
+document.body.addEventListener('mousemove', showUIControl)
