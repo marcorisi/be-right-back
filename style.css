@@ -60,19 +60,19 @@ html, body {
     background: linear-gradient( -45deg, #4831D4 50%, #CCF381 50%);
 }
 
-.brb-style-1 {
+.brb-style-1, .brb-style-1 a, .brb-style-1 a:visited {
     background-color: #8AAAE5;
     color: #FFFFFF;
 }
-.brb-style-2 {
+.brb-style-2, .brb-style-2 a, .brb-style-2 a:visited {
     background-color: #FEE715;
     color: #101820;
 }
-.brb-style-3 {
+.brb-style-3, .brb-style-3 a, .brb-style-3 a:visited {
     background-color: #F96167;
     color: #FCE77D;
 }
-.brb-style-4 {
+.brb-style-4, .brb-style-4 a, .brb-style-4 a:visited {
     background-color: #CCF381;
     color: #4831D4;
 }
