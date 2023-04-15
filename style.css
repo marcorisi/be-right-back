@@ -17,6 +17,15 @@ html, body {
     transition: opacity 0.5s ease-out;
 }
 
+#credits {
+    position: absolute;
+    z-index: 1;
+    bottom: 12px;
+    right: 12px;
+    font-size: 14px;
+    font-style: italic;
+}
+
 #ui-control.active {
     height: auto;
     opacity: 1;
